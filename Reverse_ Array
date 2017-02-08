@@ -1,0 +1,19 @@
+class ReverseofArray 
+  {
+    public static void main(String[]args)
+     {
+       //taking input for Array
+       int[] ary={10,20,30,40,50}; 
+       int[] reverse=new int[ary.length];
+
+        //reverse of an array
+        for(int i=0;i<ary.length;i++)
+            { reverse[i]=ary[ary.length-1-i];
+              System.out.println(reverse[i]+" ");
+           }
+       }
+    }
+
+
+
+      
